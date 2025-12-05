@@ -1,0 +1,54 @@
+*{
+  margin : 0%;
+  padding : 0%;
+  box-sizing : border-box;
+}
+
+html,body, #root {
+  height : 100%;
+  width : 100%;
+  font-family: 'Roboto', sans-serif;
+}
+main {
+  display : flex;
+  height : 100%;
+  width : 100%;
+  padding : 2.5rem;
+  gap :  1rem;
+}
+
+main .left , main .right {
+ height : 100%;
+  border-radius : 0.5rem;
+  display : flex;
+  flex-basis: 50%;
+}
+ main .left{
+background-color: rgb(2, 2, 68);
+position: relative;
+ }
+
+ .left .code ,.code pre , .code pre code{
+  height : 100%;
+  width : 100%;
+margin :0;
+border-radius: 0.7rem;
+}
+
+ main .left .review{
+  position:absolute;
+  bottom :1rem;
+  right :1rem;
+  background-color: #17bd6a;
+color:black;
+padding : 0.5rem 1rem;
+border-radius : 0.5rem;
+font-weight : 600;
+cursor : pointer;
+user-select: none;
+  
+ }
+
+ main .right{
+  background-color: rgb(61, 54, 99);
+ }
